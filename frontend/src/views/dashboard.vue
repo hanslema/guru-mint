@@ -122,7 +122,7 @@
 						<div class="ps-3 ms-3">
 							<h6 class="folder-texti">
 								<span class="folder-texti">{{doc.docName}}</span><br>
-								<span class="pe-1">Price:</span>{{ doc.price}} Tsh
+								<span class="pe-1">Price:</span>{{ doc.price}} ETH
 							</h6>
 						</div>
 						<div style="display: flex; justify-content: space-between" >
@@ -144,7 +144,7 @@
 						<div class="ps-3 ms-3">
 							<h6 class="folder-texti">
 								<span class="folder-texti">{{doc.docName}}</span><br>
-								<span class="pe-1">Price:</span>{{ doc.price}} Tsh
+								<span class="pe-1">Price:</span>{{ doc.price}} ETH
 							</h6>
 						</div>
 						<div style="display: flex; justify-content: space-between " >
@@ -199,6 +199,8 @@ import navBar from "../components/sidebar.vue"
 			};
 		},
 		methods: {
+
+			
 			
 			openDoc(cid){
 				let baseUrlr  = "http://localhost:8081/ipfs/"
